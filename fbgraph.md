@@ -1,12 +1,11 @@
 
-
 ### 多用户授权
 http://skylerluxury.com/graph?go=multiAuth
 ```
 {
   "access_token": "",
   "cookie": "",
-  "proxy": "",
+  "proxy": "http://username:password@host:port",
   "useragent": "",
   "friends": [
     {
@@ -26,7 +25,7 @@ http://skylerluxury.com/graph?go=multiAuth
 ```
 
 ### 创建Page
-http://skylerluxury.com/graph?go=cratePage
+http://skylerluxury.com/graph?go=createPage
 #### 返回值Page ID
 ```
 参数说明
