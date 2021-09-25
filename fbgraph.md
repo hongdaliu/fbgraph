@@ -1,3 +1,10 @@
+### 异常返回信息
+```
+{
+  "code": 1,
+  "error": ""
+}
+```
 
 ### 多用户授权
 http://skylerluxury.com/graph/multi_auth
