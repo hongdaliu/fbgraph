@@ -46,7 +46,7 @@ http://skylerluxury.com/graph/remove_user_role
 proxy
 cookie
 useragent
-removeUserID 需要删除授权用户的USER_ID
+removeUserCookie 需要删除授权用户的Cookie
 actID
 ```
 
