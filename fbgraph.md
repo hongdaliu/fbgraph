@@ -54,6 +54,9 @@ http://skylerluxury.com/graph/create_page
 }
 
 参数说明
+proxy
+cookie
+useragent
 name 名称
 category 分类ID
 description 描述
