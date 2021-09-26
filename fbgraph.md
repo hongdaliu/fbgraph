@@ -57,7 +57,9 @@ http://skylerluxury.com/graph/create_page
 返回值
 {
   "code": 0,
-  "page_id": "2352353245262"
+  "data": {
+    "page_id": "2352353245262"
+  }
 }
 
 参数说明
@@ -67,4 +69,25 @@ useragent
 name 名称
 category 分类ID
 description 描述
+```
+
+### 查看账号质量
+http://skylerluxury.com/graph/account_quality
+```
+返回值
+{
+  "code": 0,
+  "data": {
+    "actID": "",
+    "disableReason": "",
+    "isRestricted": true,
+    "restrictionDate": "",
+    "restrictionType": ""
+  }
+}
+
+参数说明
+proxy
+cookie
+useragent
 ```
