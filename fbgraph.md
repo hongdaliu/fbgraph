@@ -91,3 +91,36 @@ proxy
 cookie
 useragent
 ```
+
+### 绑定信用卡
+http://skylerluxury.com/graph/add_credit_card
+```
+返回值
+{
+  "code": 0,
+  "data": {
+    "credit_card": {
+     "card_association": "VISA",
+     "card_association_name": "Visa",
+     "credential_id": "4143043312473901",
+     "expiry_month": "1",
+     "expiry_year": "2024",
+     "id": "Y3JlZGl0X2NhcmRfNDE0MzA0MzMxMjQ3MzkwMQ==",
+     "is_expired": false,
+     "last_four_digits": "2498"
+     }
+  }
+}
+
+参数说明
+proxy
+cookie
+useragent
+actID
+countryCode 默认泰国
+cardholderName 持卡人姓名
+creditCardNumber 信用卡卡号
+csc CVV
+expiryMonth 有效月份 例如: 01
+expiryYear 有效年份(后两位) 例如: 21
+```
