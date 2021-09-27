@@ -100,14 +100,14 @@ http://skylerluxury.com/graph/add_credit_card
   "code": 0,
   "data": {
     "credit_card": {
-     "card_association": "VISA",
-     "card_association_name": "Visa",
-     "credential_id": "4143043312473901",
-     "expiry_month": "1",
-     "expiry_year": "2024",
-     "id": "Y3JlZGl0X2NhcmRfNDE0MzA0MzMxMjQ3MzkwMQ==",
-     "is_expired": false,
-     "last_four_digits": "2498"
+       "card_association": "VISA",
+       "card_association_name": "Visa",
+       "credential_id": "4143043312473901",
+       "expiry_month": "1",
+       "expiry_year": "2024",
+       "id": "Y3JlZGl0X2NhcmRfNDE0MzA0MzMxMjQ3MzkwMQ==",
+       "is_expired": false,
+       "last_four_digits": "2498"
      }
   }
 }
