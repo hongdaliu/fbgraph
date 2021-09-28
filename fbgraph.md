@@ -84,7 +84,7 @@ http://skylerluxury.com/graph/account_quality
       "isRestricted": true,
       "restrictionDate": "",
       "restrictionType": "", (GENERIC 需要上传支付方式文件https://www.facebook.com/help/contact/391647094929792, ALR)
-      "status": "" (VANILLA_RESTRICTED, NOT_RESTRICTED)
+      "status": "" (ERROR 自定义, VANILLA_RESTRICTED, NOT_RESTRICTED)
     }
   }
 }
