@@ -78,11 +78,14 @@ http://skylerluxury.com/graph/account_quality
 {
   "code": 0,
   "data": {
-    "actID": "",
-    "disableReason": "",
-    "isRestricted": true,
-    "restrictionDate": "",
-    "restrictionType": ""
+    "aid": "",
+    "restriction_info": {
+      "disableReason": "", (NULL, ADS_INTEGRITY_POLICY, RISK_PAYMENT)
+      "isRestricted": true,
+      "restrictionDate": "",
+      "restrictionType": "", (GENERIC 需要上传支付方式文件https://www.facebook.com/help/contact/391647094929792, ALR)
+      "status": "" (VANILLA_RESTRICTED, NOT_RESTRICTED)
+    }
   }
 }
 
@@ -90,6 +93,7 @@ http://skylerluxury.com/graph/account_quality
 proxy
 cookie
 useragent
+aid (NOTE: 可选)
 ```
 
 ### 绑定信用卡
