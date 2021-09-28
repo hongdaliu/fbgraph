@@ -83,7 +83,8 @@ http://skylerluxury.com/graph/account_quality
       "disableReason": "", (NULL 自定义未受限, ACCOUNT_ERROR 自定义未获取的正确的JSON结果, ADS_INTEGRITY_POLICY, RISK_PAYMENT)
       "isRestricted": true,
       "restrictionDate": "",
-      "restrictionType": "" (GENERIC 需要上传支付方式文件https://www.facebook.com/help/contact/391647094929792或者需要确认账户, ALR 不能进行验证, ALE)
+      "restrictionType": "", (GENERIC 需要上传支付方式文件https://www.facebook.com/help/contact/391647094929792或者需要确认账户, ALR, ALE)
+      "isValidCreditCard": false (是否需要验卡, 默认false)
     }
   }
 }
