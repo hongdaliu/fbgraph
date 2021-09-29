@@ -84,7 +84,7 @@ http://skylerluxury.com/graph/account_quality
       "isRestricted": true,
       "restrictionDate": "",
       "restrictionType": "", (GENERIC 需要上传支付方式文件https://www.facebook.com/help/contact/391647094929792或者需要确认账户, ALR, ALE)
-      "isValidCreditCard": false (是否需要验卡, 默认false)
+      "validStatus": 0 (1-验证卡, 2-验证账号)
     }
   }
 }
