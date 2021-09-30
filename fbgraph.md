@@ -128,3 +128,22 @@ csc CVV
 expiryMonth 有效月份 例如: 01
 expiryYear 有效年份(后两位) 例如: 21
 ```
+
+### 绑定信用卡成功后查询计费阈值
+http://skylerluxury.com/graph/billing_threshold
+```
+返回值
+{
+    "code": 0,
+    "data": {
+        "currency": "THB",
+        "formatted_amount_no_symbol": "70.00"
+    }
+}
+
+参数说明
+proxy
+cookie
+useragent
+actID
+```
