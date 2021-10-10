@@ -71,6 +71,22 @@ category 分类ID
 description 描述
 ```
 
+### 关闭Page通知
+http://skylerluxury.com/graph/close_page_notification
+```
+返回值
+{
+  "code": 0
+}
+
+参数说明
+proxy
+cookie
+useragent
+pageName
+pageID
+```
+
 ### 查看账号质量
 http://skylerluxury.com/graph/account_quality
 ```
